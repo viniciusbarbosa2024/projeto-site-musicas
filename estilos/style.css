@@ -24,6 +24,11 @@ main div#reprod {
     display: none;
 }
 
+main iframe {
+    width: 100%;
+    height: calc(100vw*315/560);
+}
+
 main div.mus {
     height: 70px;
     border-bottom: 1px solid rgb(78, 78, 78);
@@ -32,5 +37,10 @@ main div.mus {
 }
 
 main div.mus:hover {
-    background-color: rgb(51, 51, 51);
+    background-color: rgba(148, 146, 146, 0.137);
+}
+
+main div.mus p.artista {
+    font-size: 0.8em;
+    color: rgb(85, 85, 85);
 }

@@ -36,6 +36,10 @@ main div.mus {
     padding: 10px;
 }
 
+main div.mus p {
+    cursor: pointer;
+}
+
 main div.mus:hover {
     background-color: rgba(148, 146, 146, 0.137);
 }

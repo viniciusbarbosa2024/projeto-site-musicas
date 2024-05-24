@@ -11,6 +11,12 @@ function mus1() {
         c++    
     } 
     cxmus[0].style.backgroundColor = 'rgba(148, 146, 146, 0.137)'
+
+    if (window.innerWidth>=768) {
+        reprod.style.backgroundImage = 'url(https://images.pexels.com/photos/774664/pexels-photo-774664.jpeg?auto=compress&cs=tinysrgb&w=600)'
+        reprod.style.backgroundSize = 'cover'
+        reprod.style.backgroundPosition = 'center bottom'
+    }
 }
 
 function mus2() {
@@ -25,7 +31,13 @@ function mus2() {
         cxmus[c].style.backgroundColor = 'rgb(24, 24, 24)'
         c++    
     }
-    cxmus[1].style.backgroundColor = 'rgba(148, 146, 146, 0.137)'   
+    cxmus[1].style.backgroundColor = 'rgba(148, 146, 146, 0.137)'
+    
+    if (window.innerWidth>=768) {
+        reprod.style.backgroundImage = 'url(https://images.pexels.com/photos/1152359/pexels-photo-1152359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'
+        reprod.style.backgroundSize = 'cover'
+        reprod.style.backgroundPosition = 'center center'
+    }
 }
 
 function mus3() {
@@ -41,6 +53,12 @@ function mus3() {
         c++    
     }
     cxmus[2].style.backgroundColor = 'rgba(148, 146, 146, 0.137)'
+
+    if (window.innerWidth>=768) {
+        reprod.style.backgroundImage = 'url(https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'
+        reprod.style.backgroundSize = 'cover'
+        reprod.style.backgroundPosition = 'center center'
+    }
 }
 
 function mus4() {
@@ -56,4 +74,10 @@ function mus4() {
         c++    
     }
     cxmus[3].style.backgroundColor = 'rgba(148, 146, 146, 0.137)'
+
+    if (window.innerWidth>=768) {
+        reprod.style.backgroundImage = 'url(https://images.pexels.com/photos/2099737/pexels-photo-2099737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'
+        reprod.style.backgroundSize = 'cover'
+        reprod.style.backgroundPosition = 'center center'
+    }
 }

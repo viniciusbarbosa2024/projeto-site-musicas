@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+    div#reprod {
+        width: 100vw;
+        height: 400px;
+        position: relative;
+    }
+    
+    main iframe {
+        width: 560px;
+        height: 315px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
